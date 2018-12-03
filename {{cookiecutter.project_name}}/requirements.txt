@@ -1,0 +1,7 @@
+# aws
+boto3
+awscli
+
+# computer vision
+opencv-python
+

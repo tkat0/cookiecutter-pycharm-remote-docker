@@ -1,0 +1,13 @@
+# documentation
+sphinx>=1.8.0
+m2r
+sphinx_rtd_theme
+
+# unittest, static analysis
+pytest
+autopep8
+
+# data analysis
+jupyterlab
+matplotlib
+

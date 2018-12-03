@@ -1,0 +1,13 @@
+{
+  "full_name": "Your Name",
+  "email": "Your email",
+  "project_name": "project_name",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "project_short_description": "",
+  "version": "0.1.0",
+  "timezone": "Asia/Tokyo",
+  "python_version": "3.6.0",
+  "remote_host": "remote machine ip-addr or host-name",
+  "remote_uid": "remote user id (result of \"ssh {{ cookiecutter.remote_host }} id -u\")",
+  "remote_work_dir": "remote working directory. (e.g. /home/your-name/PycharmProjects/)"
+}

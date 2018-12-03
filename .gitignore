@@ -1,0 +1,3 @@
+./.idea
+
+./{{cookiecutter.project_name}}/.idea/workspace.xml
