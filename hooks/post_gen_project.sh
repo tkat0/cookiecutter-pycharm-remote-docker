@@ -1,5 +1,5 @@
 #!/bin/bash
 
 # initialize generated directory
-git init
+git init > /dev/null
 

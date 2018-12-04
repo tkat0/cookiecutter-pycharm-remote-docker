@@ -8,6 +8,8 @@
   "timezone": "Asia/Tokyo",
   "python_version": "3.6.0",
   "remote_host": "remote machine ip-addr or host-name",
+  "remote_docker_name": "Docker-remote",
   "remote_uid": "remote user id (result of \"ssh {{ cookiecutter.remote_host }} id -u\")",
-  "remote_work_dir": "remote working directory. (e.g. /home/your-name/PycharmProjects/)"
+  "remote_work_dir": "remote working directory. (e.g. /home/your-name/PycharmProjects/)",
+  "use_nvidia_docker": ["no", "yes"]
 }

@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="docker/Dockerfile" type="docker-deploy" factoryName="dockerfile" server-name="Docker-GPU">
+  <configuration default="false" name="docker build" type="docker-deploy" factoryName="dockerfile" server-name="{{ cookiecutter.remote_docker_name }}">
     <deployment type="dockerfile">
       <settings>
         <option name="JSONFilePath" value="" />
