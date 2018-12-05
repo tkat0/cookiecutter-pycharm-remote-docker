@@ -130,7 +130,11 @@ Finaly, open this project directory with PyCharm.
 - Open `Preferences > Build, Execution, Deployment > Deployment` and find `remote` server.
 - Enter `User name` and `Password`, click `Test Connection` button and confirm that you can connect.
 
-![](./imgs/deployment.png)
+![](./imgs/deployment-1.png)
+
+- To Upload repository to remote server, select project root directory, right click and click `Deployment > Upload to remote`
+
+![](./imgs/deployment-2.png)
 
 By default, changed files automatically upload.
 If you don't like it, open `Build, Execution, Deployment > Deployment > Options` and set `Upload changed files automatically to the default server` to `Never`
