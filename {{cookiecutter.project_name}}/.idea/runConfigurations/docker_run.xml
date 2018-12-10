@@ -1,0 +1,22 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="docker run" type="docker-deploy" factoryName="docker-image" server-name="{{ cookiecutter.remote_docker_name }}">
+    <deployment type="docker-image">
+      <settings>
+        <option name="command" value="" />
+        <option name="containerName" value="{{ cookiecutter.project_slug }}_container" />
+        <option name="entrypoint" value="" />
+        <option name="imageTag" value="{{ cookiecutter.project_slug }}" />
+        <option name="commandLineOptions" value="" />
+        <option name="volumeBindings">
+          <list>
+            <DockerVolumeBindingImpl>
+              <option name="containerPath" value="/work" />
+              <option name="hostPath" value="{{cookiecutter.remote_work_dir}}/{{cookiecutter.project_name}}" />
+            </DockerVolumeBindingImpl>
+          </list>
+        </option>
+      </settings>
+    </deployment>
+    <method v="2" />
+  </configuration>
+</component>

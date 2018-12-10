@@ -209,6 +209,13 @@ $ python3 -m http.server 8000
 
 Of course, you can download it by locally using Deployment function.
 
+### Login Docker Container
+
+You can login to container on PyCharm.
+
+![](./imgs/docker-run-configuration.png)
+
+![](./imgs/run-docker.png)
 
 ## Acknowledgement
 
